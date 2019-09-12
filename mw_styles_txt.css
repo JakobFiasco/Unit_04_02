@@ -4,26 +4,57 @@
    Case Problem 2
    
    Bike the Mountains Tour Style Sheet
-   Author:
-   Date:   
+   Author: Jake Fiasco
+   Date:  9/12/19
    
    Filename: mw_styles.css
 
 */
-
+@charset{
+   utf: -8;
+}
 
 /* Structural Styles */
-
-
+style{
+   background-color: rgb(173,189,227);
+}
+body{
+   background-color: rgb(227,210,173);
+   font-style: fantasy, sans-serif;
+   
+}
+footer{
+   background-color: rgb(208, 184, 109);
+   padding-top: 5px;
+   padding-bottom: 5px;
+}
+address{
+   font: normal;
+   font-size: 0.9em;
+   padding-top: 10px;
+   padding-bottom: 10px;
+}
 
 /* Heading Styles */
 
-
+h1,h2{
+   font-weight: normal;
+}
 
 /* Navigation Styles */
-
-
-
+nav>ul{
+   list-style-type: none;
+   line-height: 2em;
+   font-size: 0.9em;
+}
+nav>ul a:link,
+nav>ul a:visited{
+   color: rgb(43,59,125);
+}
+nav>ul a:hover,
+nav>ul a:active{
+   color: rgb(212,35,35);
+}
 
 /* Article Styles */
 
@@ -35,4 +66,4 @@
 
 
 /* Blockquote Styles */
-
+article#tour summary > p:first-of-type::first-line
