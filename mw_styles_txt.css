@@ -15,7 +15,7 @@
 }
 
 /* Structural Styles */
-style{
+html{
    background-color: rgb(173,189,227);
 }
 body{
@@ -50,20 +50,55 @@ nav>ul{
 nav>ul a:link,
 nav>ul a:visited{
    color: rgb(43,59,125);
+   text-decoration: none
 }
 nav>ul a:hover,
 nav>ul a:active{
    color: rgb(212,35,35);
+   text-decoration: none
 }
 
 /* Article Styles */
-
+p{
+   font-size: 1.1em;
+}
 
 
 
 /* Aside Styles */
-
-
-
+aside#tour_itinerary h1{
+   font-size:1.2em;
+}
+aside#tour_itinerary h2{
+   font-size: 0.9em;
+}
+aside#tour_itinerary p{
+   font-size: 0.8em;
+}
+aside#tour_itinerary h2:nth-of-type(odd),
+aside#tour_itinerary p:nth-of-type(odd)
+{
+   color: rgb(79,91,40)
+}
+aside#tour_itinerary h2:nth-of-type(even),
+aside#tour_itinerary p:nth-of-type(even)
+{
+   color: rgb(81, 95,175)
+}
 /* Blockquote Styles */
-article#tour summary > p:first-of-type::first-line
+article#tour_summary > p:first-of-type::first-line{
+   font-variant: small-caps;
+   font-size: 1.2em
+}
+article#tour_summary Blockquote {
+   background-color: rgb(173,189,227);
+   color: rgb(255, 255,255);
+   opacity: 0.65
+}
+article#tour_summary Blockquote p{
+   padding: bottom 2.5px;
+   padding-top: 2.5px;
+   padding-left: 10px;
+   padding-right: 10px;
+
+}
